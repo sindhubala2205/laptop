@@ -13,9 +13,9 @@
 
     </head>
     <frameset rows="25%,10%,55%,10%">
-        <frame name="f1" src="logo.jsp"> </frame>
-        <frame name="f2" src="login.jsp"> </frame>     
-        <frame name="f3" src="product1.jsp"> </frame> 
-         <frame name="f4" src="contact us.jsp"> </frame>            
+        <frame name="f1" src="logo"> </frame>
+        <frame name="f2" src="login"> </frame>     
+        <frame name="f3" src="product1"> </frame> 
+         <frame name="f4" src="contact us"> </frame>            
     </frameset>
 </html>

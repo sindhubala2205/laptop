@@ -77,7 +77,7 @@
     <div class="carousel-inner" role="listbox">
 
     ///  <div class="item active">
-       <center> <img src="s5.jpg" alt="Chania" width="400" height="300"></center>
+       <center> <img src="resource\s5" alt="Chania" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>LENOVO</h3>
           
@@ -85,7 +85,7 @@
       </div>
 
       <div class="item">
-       <center> <img src="s2.jpg" alt="Chania" width="400" height="300"></center>
+       <center> <img src="resource\s2.jpg" alt="Chania" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>Samsung</h3>
          
@@ -93,7 +93,7 @@
       </div>
     
       <div class="item">
-       <center> <img src="s3.jpg" alt="Flower" width="400" height="300"></center>
+       <center> <img src="resource\s3" alt="Flower" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>I-PHONE</h3>
           
@@ -101,7 +101,7 @@
       </div>
 
       <div class="item">
-        <center><img src="s4.jpg" alt="Flower" width="400" height="300"></center>
+        <center><img src="resource\s4" alt="Flower" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>HP</h3>
          
@@ -109,7 +109,7 @@
         </div>
 
       <div class="item">
-     <center>   <img src="s8.jpg" alt="Flower" width="400" height="300"></center>
+     <center>   <img src="resource\s8.jpg" alt="Flower" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>NOKIA</h3>
          
