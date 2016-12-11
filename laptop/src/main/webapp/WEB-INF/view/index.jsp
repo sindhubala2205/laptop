@@ -7,9 +7,10 @@
   <title>BK LAPTOP</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="resource\bootstrap.min.css">
+  <script src="resource\jquery.min.js"></script>
+  <script src="resource\bootstrap.min.js"></script>
+  <script src="resource\angular.min.js"></script>
   <style>
     /* Remove the navbar's default rounded borders and increase the bottom margin */
     .navbar {
@@ -34,7 +35,7 @@
 <div class="jumbotron">
   <div class="container text-center">
      
-    <h1><img src="S1.jpg" width="200" height="200" align="middle"/>BK LAPTOP</h1>
+    <h1><img src="resource/S1.jpg" width="200" height="200" align="middle"/>BK LAPTOP</h1>
     <p>Shopping for real life</p>
   </div>
 </div>
@@ -50,12 +51,13 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="index.jsp" class="btn btn-default"><span class="glyphicon glyphicon-home"></span><font color="red" >Home</font></a></li>
-          <li><a href="product.jsp" class="btn btn-default"><font color="red" >Products</font></a></li>
-          <li><a href="aboutus.jsp" class="btn btn-default"><span class="glyphicon glyphicon-info-sign"></span><font color="red" > About us</font></a></li>
-          <li><a href="login.jsp" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span><font color="red" >Login</font></a></li>
-          <li><a href="registration.jsp" class="btn btn-default"><span class="glyphicon glyphicon-registration-mark"></span><font color="red" >Registration</font></a></li>
-          <li><a href="order.jsp" class="btn btn-default"><span class="glyphicon glyphicon-order"></span><font color="red" >Order</font></a></li>
+          <li class="active"><a href="index" class="btn btn-default"><span class="glyphicon glyphicon-home"></span><font color="red" >Home</font></a></li>
+          <li><a href="product" class="btn btn-default"><font color="red" >Products</font></a></li>
+          <li><a href="aboutus" class="btn btn-default"><span class="glyphicon glyphicon-info-sign"></span><font color="red" > About us</font></a></li>
+          <li><a href="login" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span><font color="red" >Login</font></a></li>
+          <li><a href="registration" class="btn btn-default"><span class="glyphicon glyphicon-registration-mark"></span><font color="red" >Registration</font></a></li>
+          <li><a href="order" class="btn btn-default"><span class="glyphicon glyphicon-order"></span><font color="red" >Order</font></a></li>
+          <li><a href="contactus" class="btn btn-default"><span class="glyphicon glyphicon-contactus-mark"></span><font color="red" >contactus</font></a></li>
       </ul>
       
     </div>
@@ -77,7 +79,7 @@
     <div class="carousel-inner" role="listbox">
 
     ///  <div class="item active">
-       <center> <img src="resource\s5" alt="Chania" width="400" height="300"></center>
+       <center> <img src="resource/s5.jpg" alt="Chania" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>LENOVO</h3>
           
@@ -85,7 +87,7 @@
       </div>
 
       <div class="item">
-       <center> <img src="resource\s2.jpg" alt="Chania" width="400" height="300"></center>
+       <center> <img src="resource/s2.jpg" alt="Chania" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>Samsung</h3>
          
@@ -93,7 +95,7 @@
       </div>
     
       <div class="item">
-       <center> <img src="resource\s3" alt="Flower" width="400" height="300"></center>
+       <center> <img src="resource/s3.jpg" alt="Flower" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>I-PHONE</h3>
           
@@ -101,7 +103,7 @@
       </div>
 
       <div class="item">
-        <center><img src="resource\s4" alt="Flower" width="400" height="300"></center>
+        <center><img src="resource/s4.jpg" alt="Flower" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>HP</h3>
          
@@ -109,7 +111,7 @@
         </div>
 
       <div class="item">
-     <center>   <img src="resource\s8.jpg" alt="Flower" width="400" height="300"></center>
+     <center>   <img src="resource/s8.jpg" alt="Flower" width="400" height="300"></center>
         <div class="carousel-caption">
           <h3>NOKIA</h3>
          

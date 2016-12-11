@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<img src="lap.jpg" alt="logo" style="width:304px;height:228px;">
+<img src="resource/lap.jpg" alt="logo" style="width:304px;height:228px;">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -17,9 +17,9 @@
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">logo</a></li>
       <li><a href="#">product</a></li>
-      <li><a href="#">about us</a></li>
-      <li><a href="#">contact</a></li>
-      <li><a href="#">log in</a></li>
+      <li><a href="#">aboutus</a></li>
+      <li><a href="#">contactus</a></li>
+      <li><a href="#">login</a></li>
       <li><a href="#">Register</a></li>
     </ul>
   </div>
