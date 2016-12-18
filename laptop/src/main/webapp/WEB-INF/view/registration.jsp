@@ -45,8 +45,7 @@
   </div>
 </nav>
         <div class="container">
-            <p>You can login by entering the username and password,if you already registered in our web-site <br>
-                else please register our self before purchasing</p><br>
+            
   <h2>Enter your Details:</h2>
   <form class="form-horizontal">
   <div class="form-group">
