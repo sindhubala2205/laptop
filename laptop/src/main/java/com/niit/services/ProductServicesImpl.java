@@ -2,28 +2,24 @@ package com.niit.services;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.niit.dao.ProductDao;
 import com.niit.model.Product;
 
 public class ProductServicesImpl {
+	 @Autowired
+	 ProductDao productDao;
 
-	public void addProduct() {
-		// TODO Auto-generated method stub
 
+	public int addProduct(Product product) {
+		 return productDao.addProduct(product);
 	}
 
-	public void deleteProduct() {
-		// TODO Auto-generated method stub
+	
 
-	}
-
-	public void updateProduct() {
-		// TODO Auto-generated method stub
-
-	}
-
-	public List<Product> DisplayProduct() {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Product> DisplayProduct(Product product) {
+		return productDao.DisplayProduct();
 
 	}
 

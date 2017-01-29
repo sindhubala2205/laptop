@@ -4,8 +4,10 @@ import java.util.List;
 import com.niit.model.User;
 public interface UserDao
 {
-	public  void AddUser();
-	public List<User> DispalyUser();
+	public  int AddUser(User user);
+	
+	
+	public List<User> DisplayUser();
 	
 
 }
