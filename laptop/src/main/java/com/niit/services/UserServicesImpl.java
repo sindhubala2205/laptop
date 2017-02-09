@@ -7,10 +7,6 @@ import com.niit.dao.ProductDao;
 import com.niit.dao.UserDao;
 import com.niit.model.Product;
 import com.niit.model.User;
-
-
-
-
 public class UserServicesImpl {
 	@Autowired
     UserDao userDao;
@@ -21,9 +17,9 @@ public class UserServicesImpl {
 	}
 	
 	public List<User> DisplayUser() {
-		return userDao.Display
-				User();
+		return userDao.DisplayUser();
 	
 	}
 
 }
+
