@@ -16,7 +16,7 @@ import com.niit.model.Product;
 
 @Repository
 public class ProductDaoImpl implements ProductDao {
-	@Autowired
+	@Autowired(required=false)
 	SessionFactory sessionFactory;
 
 	@Override
