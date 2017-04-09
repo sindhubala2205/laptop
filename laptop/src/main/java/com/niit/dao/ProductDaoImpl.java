@@ -11,39 +11,32 @@ import com.niit.model.Product;
 
 @Repository
 public class ProductDaoImpl implements ProductDao {
-	
-	@Autowired
-	SessionFactory sessionFactory;
 
-	public void  addProduct(Product product) {
-		 sessionFactory.getCurrentSession().save(product);
+	public void addProduct(Product product) {
+		// TODO Auto-generated method stub
 		
-		 
+	}
+
+	public Product getProduct(int pdId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	public void deleteProduct(int pdId) {
-		sessionFactory.getCurrentSession().delete(getProduct(pdId));
-	}
-
-	public Product getProduct(int pdId)
-	{
-	return (Product) sessionFactory.getCurrentSession().get(Product.class, pdId);
-	}
-
-
-
-	public void  updateProduct(Product product) {
-		sessionFactory.getCurrentSession().update(product);
+		// TODO Auto-generated method stub
 		
+	}
 
+	public void updateProduct(Product product) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	public List<Product> DisplayProduct() {
+		// TODO Auto-generated method stub
 		return null;
-		 
 	}
-
 	
-
+	
 
 }
