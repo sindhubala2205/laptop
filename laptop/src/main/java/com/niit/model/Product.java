@@ -1,7 +1,16 @@
 package com.niit.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
 public class Product
 {
+	
+
 	int pdId,psize,pprice;
 	String pdname,pdclr;
 	int phone_no;
