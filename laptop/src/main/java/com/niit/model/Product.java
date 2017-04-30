@@ -6,10 +6,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+@Entity
+@Table(name = "Product")
 
 public class Product
 {
-	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 
 	int pdId,psize,pprice;
 	String pdname,pdclr;
