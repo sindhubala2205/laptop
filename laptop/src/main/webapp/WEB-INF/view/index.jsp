@@ -58,6 +58,7 @@
           <li><a href="registration" class="btn btn-default"><span class="glyphicon glyphicon-registration-mark"></span><font color="red" >Registration</font></a></li>
           <li><a href="order" class="btn btn-default"><span class="glyphicon glyphicon-order"></span><font color="red" >Order</font></a></li>
           <li><a href="contactus" class="btn btn-default"><span class="glyphicon glyphicon-contactus-mark"></span><font color="red" >contactus</font></a></li>
+          <li><a href="list" class="btn btn-default"><span class="glyphicon glyphicon-contactus-mark"></span><font color="red" >list</font></a></li>
       </ul>
       
     </div>

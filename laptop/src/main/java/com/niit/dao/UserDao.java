@@ -1,13 +1,20 @@
 package com.niit.dao;
+
 import java.util.List;
 
 import com.niit.model.User;
-public interface UserDao
-{
-	public  void addUser(User user);
+
+public interface UserDao {
+	public void add(User user);
+
+	public void update(User user);
 	
-	
-	public List<User> DisplayUser();
-	
+	public User edit(int cid);
+
+	public void delete(int cid);
+
+	public User getUser(int cid);
+
+	public List<User> getAllUser();
 
 }

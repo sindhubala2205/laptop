@@ -16,13 +16,18 @@ public class User {
 	String name,email,pwd,cnfpwd;
 	int phone_no;;
 
-	public void get_data(String name,String email,int phone_no,String pwd,String cnfpwd) 
-	{
-	this.name=name;
-	this.email=email;
-	this.pwd=pwd;
-	this.cnfpwd=cnfpwd;
-	this.phone_no=phone_no;		
+public User(){
+	
+}
+	
+	public User(int userId, String name, String email, String pwd, String cnfpwd, int phone_no) {
+		super();
+		UserId = userId;
+		this.name = name;
+		this.email = email;
+		this.pwd = pwd;
+		this.cnfpwd = cnfpwd;
+		this.phone_no = phone_no;
 	}
 
 	public int getUserId() {

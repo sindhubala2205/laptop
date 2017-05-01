@@ -1,5 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ include file="tag.jsp"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,7 +47,7 @@
             
   <h2>Enter your Details:</h2>
   
-  <form:form method="POST" class="form-horizontal">
+<form:form method="post" action="add" commandName="user">
   <div class="form-group">
     <label class="control-label col-sm-2" for="email">Name:</label>
     <div class="col-sm-10">
@@ -69,15 +69,9 @@
   <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Confirm password:</label>
     <div class="col-sm-10"> 
-      <form:input path="cnfpwd"   type=password" class="form-control" id="cnfpwd" placeholder="Enter Confirm password"/>
+      <form:input path="cnfpwd"   type="password" class="form-control" id="cnfpwd" placeholder="Enter Confirm password"/>
     </div>
   </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Address</label>
-    <div class="col-sm-10"> 
-      <form:input  path="address" type="address" class="form-control" id="address" placeholder="address"/>
-    </div>
-    </div>
     <div class="form-group">
     <label class="control-label col-sm-2" for="pwd">Mobile number</label>
     <div class="col-sm-10"> 

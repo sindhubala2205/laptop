@@ -28,9 +28,9 @@ public class appController {
 	public String contactus(){
 		return "contactus";
 	}
-	@RequestMapping("homepage")
+	@RequestMapping("index")
 	public String homepage(){
-		return "homepage";
+		return "index";
 	}
 	@RequestMapping("login")
 	public String login(){
@@ -48,7 +48,12 @@ public class appController {
 	public String registration(){
 		return "registration";
 	}
+
+	@RequestMapping("list")
+	public String list(){
+		return "list";
+	
 }
 
-
+}
 	
